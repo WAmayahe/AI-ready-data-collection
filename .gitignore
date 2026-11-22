@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+/lib/
 lib64/
 parts/
 sdist/
@@ -210,6 +210,36 @@ tempCodeRunnerFile.py
 
 # PyPI configuration file
 .pypirc
+
+# Node.js / React
+node_modules/
+web/dist/
+web/.vite/
+npm-debug.log*
+
+# Java / Spring Boot
+server/target/
+*.class
+*.jar
+*.war
+
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+
+# IDE and local environment
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.env
+.env.*
+!.env.example
+
+# Local video uploads and runtime data
+server/uploads/
+server/data/
 
 # Marimo
 marimo/_static/
